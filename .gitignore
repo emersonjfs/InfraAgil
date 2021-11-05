@@ -1,0 +1,9 @@
+#Ignorando arquivos especificos:
+
+iscsi525.vdi
+
+#Ignorando diretórios
+
+.vagrant/
+.files/
+
