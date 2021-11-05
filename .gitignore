@@ -2,8 +2,9 @@
 
 iscsi525.vdi
 
+
 #Ignorando diretórios
 
 .vagrant/
-.files/
+files/
 
