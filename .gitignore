@@ -6,5 +6,6 @@ iscsi525.vdi
 #Ignorando diretórios
 
 .vagrant/
+.vagrant/rgloader
 files/
 
