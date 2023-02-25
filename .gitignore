@@ -1,0 +1,11 @@
+#Ignorar os arquivos específicos
+config.conf
+iscsi525.vdi
+#Ignorar arquivos por coringa
+# 
+#*~
+#*.swap
+
+#Ignorar Diretórios
+files/
+.vagrant/
