@@ -1,19 +1,19 @@
 [automation]
 # Hosts para tarefas de automação
-automation.4.avanade.example ansible_python_interpreter=/usr/bin/python
+automation.maximus.tech ansible_python_interpreter=/usr/bin/python
 
 [compliance]
 # Hosts para tarefas de conformidade
-compliance.4.avanade.example ansible_python_interpreter=/usr/bin/python3
+compliance..maximus.tech ansible_python_interpreter=/usr/bin/python3
 
 [container]
 # Hosts para gerenciamento de contêineres
-container.4.avanade.example ansible_python_interpreter=/usr/bin/python
+container.maximus.tech ansible_python_interpreter=/usr/bin/python
 
 [scm]
 # Hosts para controle de versão e gerência de código-fonte
-scm.4.avanade.example ansible_python_interpreter=/usr/bin/python
+scm.maximus.tech ansible_python_interpreter=/usr/bin/python
 
 [log]
 # Hosts para gerenciamento de logs
-log.4.avanade.example ansible_python_interpreter=/usr/bin/python3
+log.maximus.tech ansible_python_interpreter=/usr/bin/python3
