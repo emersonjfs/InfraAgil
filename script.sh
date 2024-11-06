@@ -12,11 +12,11 @@ cat /root/.ssh/id_rsa.pub >> /home/vagrant/.ssh/authorized_keys
 
 HOSTS=$(head -n7 /etc/hosts)
 echo -e "$HOSTS" > /etc/hosts
-echo '10.5.25.10 automation.maximus.tech' >> /etc/hosts
-echo '10.5.25.20 compliance.maximus.tech' >> /etc/hosts
-echo '10.5.25.30 container.maximus.tech chat.maximus.tech' >> /etc/hosts
-echo '10.5.25.40 scm.maximus.tech' >> /etc/hosts
-echo '10.5.25.50 log.maximus.tech' >> /etc/hosts
+echo '192.168.56.10 automation.maximus.tech' >> /etc/hosts
+echo '192.168.56.20 compliance.maximus.tech' >> /etc/hosts
+echo '192.168.56.30 container.maximus.tech chat.maximus.tech' >> /etc/hosts
+echo '192.168.56.40 scm.maximus.tech' >> /etc/hosts
+echo '192.168.56.50 log.maximus.tech' >> /etc/hosts
 
 # Criando arquivo de SWAP
 #fallocate -l 1G /swapfile
