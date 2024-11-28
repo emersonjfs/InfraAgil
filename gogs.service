@@ -1,0 +1,16 @@
+[Unit]
+Description=Gogs
+After=syslog.target
+After=network.target mariadb.service mysqld.service postgresql.service memcached.service redis.service
+
+[Service]
+User=git
+Group=git
+Type=simple
+WorkingDirectory=/opt/gogs
+ExecStart=/opt/gogs/gogs web
+Restart=always
+Environment=USER=git HOME=/home/git
+
+[Install]
+WantedBy=multi-user.target
